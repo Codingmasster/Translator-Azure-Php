@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $output_lang = isset($_POST['output_lang']) ? $_POST['output_lang'] : 'fr';
 
     // Your Azure Translator API key and endpoint
-    $api_key = '098a888ecf794b8c962890002ba50640';
+    $api_key = 'YOUR_API_KEY';
     $endpoint = 'https://api.cognitive.microsofttranslator.com';
 
     // API URL
